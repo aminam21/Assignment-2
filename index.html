@@ -7,33 +7,40 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Registration Form</h1>
-    <label for="name">Enter your first name</label>
-    <br>
-    <input type="text" name="name" id="name">
-    <br>
-    <label for="email">Enter your email address</label>
-    <br>
-    <input type="email">
-    <br>
-    <label for="password">Enter your password</label>
-    <br>
-    <input type="password">
-    <br>
-    <label for="password">Confirm your password</label>
-    <br>
-    <input type="password">
-    <br>
-    <br>
-    <label for="gender">Enter your gender</label>
-    <br>
-    <input type="radio" name="gender" id="">male
-    <br>
-    <input type="radio" name="gender" id="">female
-    <br>
-    <br>
-    
-
-    
+ <h1>Registration Form</h1>
+   <form>
+    <fieldset>
+        <legend>Your personal information</legend> 
+        <label for="fname">Enter your first name</label>
+        <br>
+        <input type="text" name="name" id="name">
+        <br>
+        <label for="email">Enter your email address</label>
+        <br>
+        <input type="email">
+        <br>
+        <label for="password">Enter your password</label>
+        <br>
+        <input type="password">
+        <br>
+        <label for="password">Confirm your password</label>
+        <br>
+        <input type="password">
+        <br>
+        <br>
+        <label for="gender">Enter your gender</label>
+        <br>
+        <input type="radio" name="gender" id="" value="male">male
+        <br>
+        <input type="radio" name="gender" id="" value="female">female
+        <br>
+        <br>
+        <label for="address">Enter your address:</label>
+        <br>
+        <textarea name="address" id="" cols="25" rows="3"></textarea>
+        <br>
+        <input type="button" value="Sign-Up">  
+    </fieldset>
+   </form>
 </body>
 </html>
